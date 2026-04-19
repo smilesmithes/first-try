@@ -47,14 +47,20 @@
       >
         <a
           href="#hero"
-          class="flex items-center gap-3 font-display text-lg font-semibold tracking-tight text-white transition hover:text-neutral-400"
+          class="group flex items-center gap-3 transition-opacity hover:opacity-90"
         >
           <img
             src="logo.png"
-            alt=""
-            class="h-10 w-auto shrink-0 object-contain"
+            alt="Dr. Muthukumaran L R"
+            width="160"
+            height="40"
+            class="h-10 w-auto object-contain"
           />
-          <span>Site</span>
+          <span
+            class="font-display text-lg font-semibold tracking-tight text-white transition group-hover:text-neutral-400"
+          >
+            Site
+          </span>
         </a>
         <nav class="hidden items-center gap-8 text-sm font-medium text-neutral-400 sm:flex">
           <a href="#hero" class="transition hover:text-white">Home</a>
@@ -72,15 +78,16 @@
     <main>
       <section
         id="hero"
-        class="mx-auto flex max-w-6xl flex-col items-center justify-center px-4 pb-20 pt-10 text-center sm:px-6 sm:pb-28 sm:pt-16 lg:px-8 lg:pt-20"
+        class="mx-auto flex max-w-6xl flex-col items-center justify-center px-4 pb-20 pt-10 text-center sm:px-6 sm:pb-28 sm:pt-14 lg:px-8 lg:pt-16"
       >
         <div
-          class="mb-2 flex w-full justify-center px-6 py-8 sm:mb-4 sm:px-10 sm:py-10 lg:px-12 lg:py-12"
+          class="mb-10 flex w-full max-w-5xl justify-center px-6 py-10 sm:mb-12 sm:px-10 sm:py-14 lg:px-14 lg:py-16"
         >
           <img
             src="logo.png"
             alt=""
-            class="h-[150px] w-auto max-w-full object-contain"
+            class="h-[400px] w-auto max-w-full object-contain"
+            aria-hidden="true"
           />
         </div>
         <p
